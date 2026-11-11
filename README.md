@@ -22,14 +22,7 @@ Follow these steps to get the project up and running on your local machine.
 
 ### 2. Installation and Setup
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
-    cd your-repository-name
-    ```
-    *(Remember to replace `your-username` and `your-repository-name` with your actual information.)*
-
-2.  **Create and activate a virtual environment (optional but recommended):**
+1.  **Create and activate a virtual environment (optional but recommended):**
     ```powershell
     python -m venv .venv
     # PowerShell
@@ -38,12 +31,12 @@ Follow these steps to get the project up and running on your local machine.
     source .venv/bin/activate
     ```
 
-3.  **Install the required dependencies:**
+2.  **Install the required dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 
-4.  **Configure your environment variables:**
+3.  **Configure your environment variables:**
     - Copy the template file: `cp .env.example .env`
     - Open the new `.env` file and add your `OPENAI_API_KEY`.
     - If you are using Qdrant locally (default), you can leave `QDRANT_URL` and `QDRANT_API_KEY` blank.

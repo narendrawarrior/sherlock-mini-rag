@@ -1,0 +1,9 @@
+# Ignore the environment variables file
+.env
+
+# Ignore the virtual environment folder
+.venv/
+__pycache__/
+
+# Ignore local Qdrant data (graders will create their own)
+qdrant_data/

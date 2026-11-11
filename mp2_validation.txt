@@ -1,0 +1,55 @@
+
+  Validating 2 questions from predefined_questions.jsonl…
+
+  ✓ q1_red_headed_league_assistant
+     Q: Who was the assistant working at Jabez Wilson's pawnshop, and what was his real identity?
+     Answer:
+     The excerpts provided do not contain information about the assistant working at Jabez Wilson's pawnshop or his real identity.
+     Cited: 01_red_headed_league.txt
+     Expected: 01_red_headed_league.txt
+     Facts matched: 0/5
+     Latency: 3688ms
+
+  ✓ q2_speckled_band_murder_weapon
+     Q: What killed Julia Stoner at Stoke Moran, and how was the method discovered?
+     Answer:
+     Julia Stoner was killed by a snake, specifically a "speckled band," which was trained by Doctor Roylott to kill her. The method was discovered by Holmes when he examined the room and noted the peculiarities, including the dummy bell-rope and the ventilator that connected to Doctor Roylott's room. This led him to deduce that the snake was used to enter Julia's room through the ventilator. (Source: The Adventure of the Speckled Band — Holmes Investigates)
+     Cited: 02_speckled_band.txt
+     Expected: 02_speckled_band.txt
+     Facts matched: 4/6
+     Latency: 3426ms
+
+  Source-match: 2/2
+
+  Validating 3 questions from learner_questions.jsonl…
+
+  ✓ q1_learner_suburban_bank
+     Q: Why did John Clay choose the City and Suburban Bank and how did he use the pawnshop as a ruse?
+     Answer:
+     The excerpts provided do not contain information about why John Clay chose the City and Suburban Bank or how he used the pawnshop as a ruse. Therefore, I cannot answer your question based on the provided excerpts.
+     Cited: 01_red_headed_league.txt
+     Expected: 01_red_headed_league.txt
+     Facts matched: 2/3
+     Latency: 1960ms
+
+  ✓ q2_learner_speckled_band
+     Q: Why was no poison observed in the coroner's reports after a Swamp Adder bite at Stoke Moran?
+     Answer:
+     No poison was observed in the coroner's reports after a Swamp Adder bite at Stoke Moran because the snake's bite left no visible mark due to its tiny puncture and quick action. This meant that the effects of the bite could go unnoticed, leading to the absence of poison in the reports. (The Adventure of the Speckled Band — The Explanation)
+     Cited: 02_speckled_band.txt
+     Expected: 02_speckled_band.txt
+     Facts matched: 3/3
+     Latency: 2624ms
+
+  ✓ q3_learner_multi_hop
+     Q: Compare the motives of the criminal masterminds regarding John Clay's pawnshop tunnel and Dr. Roylott's financial pressures on his stepdaughters.
+     Answer:
+     The excerpts provided do not contain any information about John Clay's pawnshop tunnel or his motives. They only discuss Doctor Roylott's motive for killing his stepdaughters, which was to obtain their share of their mother's annuity. Therefore, I cannot provide a comparison of the motives of the criminal masterminds regarding John Clay and Dr. Roylott. 
+
+(Source: The Adventure of the Speckled Band — The Explanation)
+     Cited: 02_speckled_band.txt
+     Expected: 01_red_headed_league.txt | 02_speckled_band.txt
+     Facts matched: 3/3
+     Latency: 2978ms
+
+  Source-match: 3/3
